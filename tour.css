@@ -140,7 +140,7 @@ main {
     gap: 50px;
 }
 
-.popular-title {
+.common-title {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
@@ -170,12 +170,52 @@ main {
     height: 100%;
 }
 
+.destination {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.destination .desc {
+    max-width: 600px;
+    padding-left: 250px;
+}
+
+.destination-container {
+    width: 100%;
+}
+
+.desti-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+
+.desti-img .pt {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.desti-img img {
+    height: 100%;
+}
+
+.desti-img .country {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+}
+
 
 @media screen and (max-width: 600px) {
     header {
         padding: 5px;
     }
-
 
     nav ul {
         display: none;
@@ -203,19 +243,32 @@ main {
     }
 
     .banner {
-        height: 100%;
+        height: auto;
     }
 
     .find-container,
-    .popular-tour {
+    .popular-tour,
+    .desti-img {
         flex-direction: column;
     }
 
-    .popular-img  img{
+    .desti-img,
+    .pt {
+        grid-template-columns: 1fr;
+    }
+
+    .popular-img img,
+    .desti-img img {
+        height: auto;
         width: 100%;
     }
 
+    .destination .desc {
+        padding-left: 0px;
+    }
 }
+
+
 
 /* medium device*/
 /* @media screen and (min-width: 576px) and(max-width:960px) {
