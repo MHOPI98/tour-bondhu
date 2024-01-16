@@ -261,6 +261,87 @@ main {
     font-weight: 800;
 }
 
+.news-container {
+    margin-top: 50px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.news-content {
+    border: 1px solid #FD6E0A;
+    padding-left: 20px;
+}
+
+#frm {
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    width: 350px;
+    height: 52px;
+    border: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.news-btn {
+    background: #FF5400;
+    width: 350px;
+    height: 52px;
+    border: none;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FFF;
+}
+
+/* 
+.news-offer {
+    background-color: #FF900E;
+    text-align: center;
+    border-radius: 8px;
+    width: 324px;
+    position: relative; 
+    bottom: 10%;
+    right: 0; 
+    padding-right: 10px;
+    transform: rotate(-19.628deg);
+  } */
+
+.news-img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.news-offer {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: rotate(-19.628deg);
+    font-size: 28px;
+}
+
+.news-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.news-desc {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
 @media screen and (max-width: 600px) {
     header {
         padding: 5px;
@@ -298,7 +379,8 @@ main {
     .find-container,
     .popular-tour,
     .desti-img,
-    .two {
+    .two,
+    .news {
         flex-direction: column;
     }
 
@@ -308,15 +390,34 @@ main {
     }
 
     .popular-img img,
-    .desti-img img {
+    .desti-img img,
+    .news-img img {
         height: auto;
         width: 100%;
     }
 
     .destination .desc,
-    .choose .desc 
-    {
+    .choose .desc {
         padding-left: 0px;
+    }
+
+    .news-offer {
+        width: 200px;
+        height: 70px;
+    }
+    .news-title {
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 0px;
+    }
+    
+    .news-desc {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 5px;
     }
 }
 
