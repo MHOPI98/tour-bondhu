@@ -211,6 +211,55 @@ main {
     font-size: 28px;
 }
 
+.div {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.choose .desc {
+    max-width: 600px;
+    padding-left: 250px;
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.p-one {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.p-two {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.p-three {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    max-width: 573px;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.choose-container .choose-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
 
 @media screen and (max-width: 600px) {
     header {
@@ -248,7 +297,8 @@ main {
 
     .find-container,
     .popular-tour,
-    .desti-img {
+    .desti-img,
+    .two {
         flex-direction: column;
     }
 
@@ -263,7 +313,9 @@ main {
         width: 100%;
     }
 
-    .destination .desc {
+    .destination .desc,
+    .choose .desc 
+    {
         padding-left: 0px;
     }
 }
