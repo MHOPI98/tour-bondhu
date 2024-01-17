@@ -23,13 +23,13 @@ header {
 
 .logo .title {
     color: #131318;
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 800;
 }
 
 .logo .b-title {
     color: #FF5400;
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 800;
 }
 
@@ -48,7 +48,7 @@ nav li {
     list-style: none;
     margin-right: 30px;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 400;
 
 }
@@ -68,25 +68,25 @@ nav li a {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px;
-    height: 500px;
+    height: 100vh;
     border-radius: 20px;
 }
 
 .banner-container {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .banner-container .banner-title {
     color: #FFF;
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
     margin-bottom: 0px;
 }
 
 .banner-container .banner-desc {
     color: #FFF;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 
 }
@@ -94,24 +94,24 @@ nav li a {
 .banner .find-bar {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    padding: 16px;
-    margin: 30px;
+    padding: 10px;
+    margin:10px 50px;
 }
 
 .banner .find-container {
     align-items: center;
     display: flex;
     justify-content: space-around;
-    gap: 25px;
+    gap: 15px;
 }
 
 .input {
     border-radius: 5px;
     color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     border: none;
-    width: 174px;
+    width: 180px;
     padding: 16px 16px;
     text-align: left;
     cursor: pointer;
@@ -123,7 +123,7 @@ nav li a {
     background: #FD6E0A;
     padding: 16px 16px;
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
     border: 0;
 
@@ -144,14 +144,14 @@ main {
 
 .common-title {
     color: #131318;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 24px;
 }
 
 .desc {
     color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
+    font-size:1rem;
     font-weight: 400;
     margin-bottom: 24px;
 }
@@ -164,7 +164,7 @@ main {
     height: 55px;
     color: #FFF;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 800;
 }
 
@@ -210,7 +210,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 28px;
+    font-size: 1.8rem;
 }
 
 .div {
@@ -312,20 +312,20 @@ main {
     top: 60%;
     left: 50%;
     transform: rotate(-19.628deg);
-    font-size: 28px;
+    font-size: 1.8rem;
 }
 
 .news-title {
     color: #FFF;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.8px;
     font-weight: 400;
     margin-bottom: 0px;
 }
 
 .news-desc {
     color: #FFF;
-    font-size: 32px;
+    font-size:2rem;
     font-weight: 800;
     margin-top: 5px;
 }
@@ -356,7 +356,7 @@ main {
 
 .copy {
     color: #131318;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -391,7 +391,7 @@ main {
     }
 
     .banner {
-        height: auto;
+        height: 100%;
     }
 
     .find-container,
@@ -401,7 +401,7 @@ main {
     .news {
         flex-direction: column;
     }
-
+    
     .desti-img,
     .pt {
         grid-template-columns: 1fr;
@@ -445,16 +445,3 @@ main {
 }
 
 
-
-/* medium device*/
-/* @media screen and (min-width: 576px) and(max-width:960px) {
-    header {
-        padding: 50px;
-    }
-
-    nav,
-    .team-container {
-        flex-direction: column;
-    }
-
-} */
